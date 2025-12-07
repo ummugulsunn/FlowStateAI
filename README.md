@@ -44,3 +44,13 @@ pip install --upgrade pip
 - Logs are written to `flowstate.log` by default (ignored via `.gitignore`).
 - Replace the in-memory registry with persistent storage as the project evolves.
 
+## 🔬 Technical Architecture & Methodology
+- **Core concept — Passive sensing:** Infer cognitive load and focus from standard computer interaction (keystroke dynamics and mouse dynamics) instead of intrusive signals such as EEG or eye-tracking.
+- **Data pipeline:**  
+  `User Input (keystroke + mouse streams)` -> `Feature Extraction (flight time, dwell time, velocity, acceleration, click intervals, scroll rhythm)` -> `Labeling (NASA-TLX: Low / Medium / High)` -> `Time-Series Models (RF, XGBoost, LSTM, Bi-LSTM, CNN-LSTM)` -> `Evaluation & Selection` -> `Real-time Desktop Deployment`
+- **Input features:** Keystroke timing (flight, dwell), mouse velocity, acceleration, click intervals, and scroll rhythm.
+- **Ground truth:** NASA-TLX scores mapped to Low / Medium / High cognitive load classes.
+- **Model strategy:** Compare classical (Random Forest, XGBoost) and deep sequence models (LSTM, Bi-LSTM, CNN-LSTM) for time-series classification; select the best-performing model for embedding.
+- **Deployment target:** Embed the selected model into a real-time desktop application to infer cognitive load from passive interaction data.
+
+
