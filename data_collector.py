@@ -134,7 +134,7 @@ class AdvancedDataCollector:
         )
 
     def _on_move(self, x: int, y: int) -> None:
-        """Handle mouse move events and estimate velocity."""
+        """Handle mouse move events and estimate velocity with throttling."""
         event_time = time.time()
         velocity = None
 
@@ -143,6 +143,9 @@ class AdvancedDataCollector:
             dy = y - self.last_mouse_pos[1]
             distance = math.hypot(dx, dy)
             dt = event_time - self.last_mouse_move_time
+            # Throttle to reduce excessive logging: require time or distance threshold.
+            if dt < 0.1 and distance < 5:
+                return
             velocity = distance / dt if dt > 0 else None
 
         self.last_mouse_pos = (x, y)

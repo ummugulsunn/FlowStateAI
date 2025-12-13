@@ -86,3 +86,5 @@ class UserRegistry:
 __all__ = ["UserRegistry", "ValidationError"]
 
 
+
+
