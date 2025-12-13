@@ -53,4 +53,9 @@ pip install --upgrade pip
 - **Model strategy:** Compare classical (Random Forest, XGBoost) and deep sequence models (LSTM, Bi-LSTM, CNN-LSTM) for time-series classification; select the best-performing model for embedding.
 - **Deployment target:** Embed the selected model into a real-time desktop application to infer cognitive load from passive interaction data.
 
+## Week 2: Advanced Data Collection
+- `data_collector.py`: Asenkron klavye/fare dinleyicileriyle (pynput) pasif etkileşim verisini toplar; Queue + writer thread ile JSON satırlarına kaydeder, mouse hareketlerini 0.1s/5px eşiğiyle filtreler.
+- `data_analysis.py`: Toplanan logların bütünlüğünü ve anomalilerini (timestamp sırası, aşırı velocity, negatif dwell/flight) kontrol eden analiz aracı.
+- `library_usage_guide.md`: Pynput tabanlı listener mimarisini ve bilişsel yük tahmini bağlamında klavye/fare metriklerinin önemini açıklayan teknik rehber.
+
 
