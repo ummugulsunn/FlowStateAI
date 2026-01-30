@@ -16,12 +16,19 @@ dist/
 # Logs
 *.log
 
+# Session data (keep sample files)
+sessions/*
+!sessions/2026-01-30/
+!sessions/2026-01-30/session_sample_*.json
+
 # Environment variables
 .env
 .env.local
 
 # MacOS metadata
 .DS_Store
+
+
 
 
 

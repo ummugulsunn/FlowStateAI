@@ -1,0 +1,22 @@
+{"timestamp": 1738234567.123, "event_type": "key_press", "data": {"key": "h", "press_time": 1738234567.123, "flight_time": null}}
+{"timestamp": 1738234567.189, "event_type": "key_release", "data": {"key": "h", "press_time": 1738234567.123, "release_time": 1738234567.189, "dwell_time": 0.066}}
+{"timestamp": 1738234567.245, "event_type": "key_press", "data": {"key": "e", "press_time": 1738234567.245, "flight_time": 0.056}}
+{"timestamp": 1738234567.312, "event_type": "key_release", "data": {"key": "e", "press_time": 1738234567.245, "release_time": 1738234567.312, "dwell_time": 0.067}}
+{"timestamp": 1738234567.378, "event_type": "key_press", "data": {"key": "l", "press_time": 1738234567.378, "flight_time": 0.066}}
+{"timestamp": 1738234567.445, "event_type": "key_release", "data": {"key": "l", "press_time": 1738234567.378, "release_time": 1738234567.445, "dwell_time": 0.067}}
+{"timestamp": 1738234567.512, "event_type": "key_press", "data": {"key": "l", "press_time": 1738234567.512, "flight_time": 0.067}}
+{"timestamp": 1738234567.578, "event_type": "key_release", "data": {"key": "l", "press_time": 1738234567.512, "release_time": 1738234567.578, "dwell_time": 0.066}}
+{"timestamp": 1738234567.645, "event_type": "key_press", "data": {"key": "o", "press_time": 1738234567.645, "flight_time": 0.067}}
+{"timestamp": 1738234567.712, "event_type": "key_release", "data": {"key": "o", "press_time": 1738234567.645, "release_time": 1738234567.712, "dwell_time": 0.067}}
+{"timestamp": 1738234567.845, "event_type": "key_press", "data": {"key": "Key.space", "press_time": 1738234567.845, "flight_time": 0.133}}
+{"timestamp": 1738234567.912, "event_type": "key_release", "data": {"key": "Key.space", "press_time": 1738234567.845, "release_time": 1738234567.912, "dwell_time": 0.067}}
+{"timestamp": 1738234568.045, "event_type": "key_press", "data": {"key": "w", "press_time": 1738234568.045, "flight_time": 0.133}}
+{"timestamp": 1738234568.112, "event_type": "key_release", "data": {"key": "w", "press_time": 1738234568.045, "release_time": 1738234568.112, "dwell_time": 0.067}}
+{"timestamp": 1738234568.178, "event_type": "key_press", "data": {"key": "o", "press_time": 1738234568.178, "flight_time": 0.066}}
+{"timestamp": 1738234568.245, "event_type": "key_release", "data": {"key": "o", "press_time": 1738234568.178, "release_time": 1738234568.245, "dwell_time": 0.067}}
+{"timestamp": 1738234568.312, "event_type": "key_press", "data": {"key": "r", "press_time": 1738234568.312, "flight_time": 0.067}}
+{"timestamp": 1738234568.378, "event_type": "key_release", "data": {"key": "r", "press_time": 1738234568.312, "release_time": 1738234568.378, "dwell_time": 0.066}}
+{"timestamp": 1738234568.445, "event_type": "key_press", "data": {"key": "l", "press_time": 1738234568.445, "flight_time": 0.067}}
+{"timestamp": 1738234568.512, "event_type": "key_release", "data": {"key": "l", "press_time": 1738234568.445, "release_time": 1738234568.512, "dwell_time": 0.067}}
+{"timestamp": 1738234568.578, "event_type": "key_press", "data": {"key": "d", "press_time": 1738234568.578, "flight_time": 0.066}}
+{"timestamp": 1738234568.645, "event_type": "key_release", "data": {"key": "d", "press_time": 1738234568.578, "release_time": 1738234568.645, "dwell_time": 0.067}}

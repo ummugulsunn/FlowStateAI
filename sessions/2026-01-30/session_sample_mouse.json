@@ -1,0 +1,20 @@
+{"timestamp": 1738234570.123, "event_type": "mouse_move", "data": {"x": 100, "y": 200, "velocity": null}}
+{"timestamp": 1738234570.256, "event_type": "mouse_move", "data": {"x": 150, "y": 220, "velocity": 391.5}}
+{"timestamp": 1738234570.389, "event_type": "mouse_move", "data": {"x": 220, "y": 250, "velocity": 578.2}}
+{"timestamp": 1738234570.523, "event_type": "mouse_move", "data": {"x": 310, "y": 290, "velocity": 738.6}}
+{"timestamp": 1738234570.656, "event_type": "mouse_move", "data": {"x": 420, "y": 340, "velocity": 903.7}}
+{"timestamp": 1738234570.789, "event_type": "mouse_move", "data": {"x": 520, "y": 380, "velocity": 800.0}}
+{"timestamp": 1738234570.923, "event_type": "mouse_move", "data": {"x": 580, "y": 400, "velocity": 477.5}}
+{"timestamp": 1738234571.056, "event_type": "mouse_click", "data": {"x": 580, "y": 400, "button": "Button.left", "pressed": true, "click_interval": null}}
+{"timestamp": 1738234571.123, "event_type": "mouse_click", "data": {"x": 580, "y": 400, "button": "Button.left", "pressed": false, "click_interval": 0.067}}
+{"timestamp": 1738234571.456, "event_type": "mouse_move", "data": {"x": 620, "y": 420, "velocity": 126.5}}
+{"timestamp": 1738234571.789, "event_type": "mouse_move", "data": {"x": 700, "y": 480, "velocity": 268.3}}
+{"timestamp": 1738234572.123, "event_type": "mouse_scroll", "data": {"x": 700, "y": 480, "dx": 0, "dy": -3}}
+{"timestamp": 1738234572.456, "event_type": "mouse_scroll", "data": {"x": 700, "y": 480, "dx": 0, "dy": -3}}
+{"timestamp": 1738234572.789, "event_type": "mouse_scroll", "data": {"x": 700, "y": 480, "dx": 0, "dy": -2}}
+{"timestamp": 1738234573.123, "event_type": "mouse_move", "data": {"x": 750, "y": 500, "velocity": 156.5}}
+{"timestamp": 1738234573.456, "event_type": "mouse_click", "data": {"x": 750, "y": 500, "button": "Button.right", "pressed": true, "click_interval": 2.333}}
+{"timestamp": 1738234573.523, "event_type": "mouse_click", "data": {"x": 750, "y": 500, "button": "Button.right", "pressed": false, "click_interval": 0.067}}
+{"timestamp": 1738234573.856, "event_type": "mouse_move", "data": {"x": 800, "y": 520, "velocity": 156.5}}
+{"timestamp": 1738234574.189, "event_type": "mouse_click", "data": {"x": 800, "y": 520, "button": "Button.left", "pressed": true, "click_interval": 0.666}}
+{"timestamp": 1738234574.256, "event_type": "mouse_click", "data": {"x": 800, "y": 520, "button": "Button.left", "pressed": false, "click_interval": 0.067}}

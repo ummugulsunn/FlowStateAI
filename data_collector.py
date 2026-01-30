@@ -233,3 +233,74 @@ class AdvancedDataCollector:
 
 __all__ = ["AdvancedDataCollector"]
 
+
+def main() -> None:
+    """
+    CLI entry point for running the data collector.
+
+    Usage:
+        python data_collector.py [--duration SECONDS]
+
+    Examples:
+        python data_collector.py              # Run until Ctrl+C
+        python data_collector.py --duration 60  # Run for 60 seconds
+    """
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="FlowStateAI - Passive behavioral data collector for cognitive load estimation."
+    )
+    parser.add_argument(
+        "--duration",
+        type=int,
+        default=None,
+        help="Duration in seconds to collect data. If not specified, runs until Ctrl+C.",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=str,
+        default="sessions",
+        help="Base directory for session files (default: sessions).",
+    )
+    args = parser.parse_args()
+
+    collector = AdvancedDataCollector(base_dir=args.output_dir)
+
+    print("=" * 50)
+    print("FlowStateAI - Veri Toplama Modülü")
+    print("=" * 50)
+    print(f"Session dosyası: {collector.session_file}")
+    print("-" * 50)
+
+    collector.start()
+
+    if args.duration:
+        print(f"Veri toplama başladı ({args.duration} saniye)...")
+        try:
+            time.sleep(args.duration)
+        except KeyboardInterrupt:
+            print("\nKullanıcı tarafından durduruldu.")
+    else:
+        print("Veri toplama başladı. Durdurmak için Ctrl+C tuşlayın...")
+        try:
+            while True:
+                time.sleep(1)
+        except KeyboardInterrupt:
+            print("\nKullanıcı tarafından durduruldu.")
+
+    collector.stop()
+
+    # Print summary
+    print("-" * 50)
+    print("Veri toplama tamamlandı.")
+    print(f"Veriler kaydedildi: {collector.session_file}")
+
+    if collector.session_file.exists():
+        line_count = sum(1 for _ in collector.session_file.open("r", encoding="utf-8"))
+        print(f"Toplam event sayısı: {line_count}")
+    print("=" * 50)
+
+
+if __name__ == "__main__":
+    main()
+

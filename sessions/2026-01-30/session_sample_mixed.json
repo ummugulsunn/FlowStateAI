@@ -1,0 +1,23 @@
+{"timestamp": 1738234580.100, "event_type": "mouse_move", "data": {"x": 500, "y": 300, "velocity": null}}
+{"timestamp": 1738234580.250, "event_type": "mouse_move", "data": {"x": 520, "y": 310, "velocity": 149.1}}
+{"timestamp": 1738234580.400, "event_type": "mouse_click", "data": {"x": 520, "y": 310, "button": "Button.left", "pressed": true, "click_interval": null}}
+{"timestamp": 1738234580.467, "event_type": "mouse_click", "data": {"x": 520, "y": 310, "button": "Button.left", "pressed": false, "click_interval": 0.067}}
+{"timestamp": 1738234581.000, "event_type": "key_press", "data": {"key": "f", "press_time": 1738234581.000, "flight_time": null}}
+{"timestamp": 1738234581.067, "event_type": "key_release", "data": {"key": "f", "press_time": 1738234581.000, "release_time": 1738234581.067, "dwell_time": 0.067}}
+{"timestamp": 1738234581.133, "event_type": "key_press", "data": {"key": "l", "press_time": 1738234581.133, "flight_time": 0.066}}
+{"timestamp": 1738234581.200, "event_type": "key_release", "data": {"key": "l", "press_time": 1738234581.133, "release_time": 1738234581.200, "dwell_time": 0.067}}
+{"timestamp": 1738234581.267, "event_type": "key_press", "data": {"key": "o", "press_time": 1738234581.267, "flight_time": 0.067}}
+{"timestamp": 1738234581.334, "event_type": "key_release", "data": {"key": "o", "press_time": 1738234581.267, "release_time": 1738234581.334, "dwell_time": 0.067}}
+{"timestamp": 1738234581.400, "event_type": "key_press", "data": {"key": "w", "press_time": 1738234581.400, "flight_time": 0.066}}
+{"timestamp": 1738234581.467, "event_type": "key_release", "data": {"key": "w", "press_time": 1738234581.400, "release_time": 1738234581.467, "dwell_time": 0.067}}
+{"timestamp": 1738234581.600, "event_type": "mouse_move", "data": {"x": 600, "y": 350, "velocity": 379.5}}
+{"timestamp": 1738234581.750, "event_type": "mouse_move", "data": {"x": 680, "y": 400, "velocity": 633.2}}
+{"timestamp": 1738234581.900, "event_type": "mouse_scroll", "data": {"x": 680, "y": 400, "dx": 0, "dy": -2}}
+{"timestamp": 1738234582.050, "event_type": "key_press", "data": {"key": "Key.enter", "press_time": 1738234582.050, "flight_time": 0.583}}
+{"timestamp": 1738234582.117, "event_type": "key_release", "data": {"key": "Key.enter", "press_time": 1738234582.050, "release_time": 1738234582.117, "dwell_time": 0.067}}
+{"timestamp": 1738234582.300, "event_type": "mouse_click", "data": {"x": 680, "y": 400, "button": "Button.left", "pressed": true, "click_interval": 1.833}}
+{"timestamp": 1738234582.367, "event_type": "mouse_click", "data": {"x": 680, "y": 400, "button": "Button.left", "pressed": false, "click_interval": 0.067}}
+{"timestamp": 1738234582.500, "event_type": "key_press", "data": {"key": "Key.ctrl_l", "press_time": 1738234582.500, "flight_time": 0.383}}
+{"timestamp": 1738234582.550, "event_type": "key_press", "data": {"key": "s", "press_time": 1738234582.550, "flight_time": 0.050}}
+{"timestamp": 1738234582.617, "event_type": "key_release", "data": {"key": "s", "press_time": 1738234582.550, "release_time": 1738234582.617, "dwell_time": 0.067}}
+{"timestamp": 1738234582.650, "event_type": "key_release", "data": {"key": "Key.ctrl_l", "press_time": 1738234582.500, "release_time": 1738234582.650, "dwell_time": 0.150}}
