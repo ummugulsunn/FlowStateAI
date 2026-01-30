@@ -1,80 +1,117 @@
-# FlowStateAI — Bilişsel Yük Tahmin Sistemi
+# FlowStateAI
 
-Klavye ve fare etkileşimlerinden pasif davranışsal veri toplayarak bilişsel yükü tahmin eden bir Python uygulaması.
+**Passive Behavioral Sensing for Cognitive Load Estimation**
 
-## Proje Amacı
+FlowStateAI captures keyboard and mouse interactions to predict cognitive load levels (Low / Medium / High) using machine learning. Unlike invasive methods such as EEG or eye-tracking, this approach uses passive sensing—analyzing natural computer interactions without interrupting the user.
 
-FlowStateAI, kullanıcının bilgisayarla etkileşimini (tuş vuruşları, fare hareketleri) analiz ederek bilişsel yük seviyesini (Düşük / Orta / Yüksek) tahmin etmeyi hedefler. EEG veya göz takibi gibi invaziv yöntemler yerine, pasif algılama (passive sensing) yaklaşımı kullanılır.
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Gereksinimler
+---
 
-- Python 3.11+
-- pynput kütüphanesi
+## Table of Contents
 
-## Kurulum
+- [Features](#features)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Data Format](#data-format)
+- [Modules](#modules)
+- [Architecture](#architecture)
+- [Sample Data](#sample-data)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [Team](#team)
+- [License](#license)
+
+---
+
+## Features
+
+- **Real-time event capture**: Keyboard (press/release) and mouse (move/click/scroll) events
+- **Behavioral metrics**: Dwell time, flight time, velocity, click intervals
+- **Thread-safe I/O**: Queue-based writer thread prevents listener blocking
+- **Session management**: Auto-organized as `sessions/YYYY-MM-DD/session_HHMMSS.json`
+- **Data validation**: Built-in analysis tool for integrity and anomaly detection
+- **CLI interface**: Easy-to-use command-line tool with duration control
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Python 3.11 or higher
+- macOS, Linux, or Windows
+
+### Setup
 
 ```bash
-# 1. Virtual environment oluştur
-python3.11 -m venv .venv
+# Clone the repository
+git clone https://github.com/ummugulsunn/FlowStateAI.git
+cd FlowStateAI
+
+# Create virtual environment
+python3 -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
-# 2. Bağımlılıkları yükle
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-## Hızlı Başlangıç
+### Platform-Specific Notes
 
-### Veri Toplama
+**macOS**: Accessibility permission required
+1. System Preferences → Security & Privacy → Privacy → Accessibility
+2. Add your terminal application (Terminal, iTerm, or Cursor)
 
+**Linux**: X11 library may be required
 ```bash
-# Ctrl+C ile durdurana kadar çalışır
-python data_collector.py
-
-# Belirli süre için çalıştır (örn: 60 saniye)
-python data_collector.py --duration 60
-
-# Farklı çıktı klasörü belirt
-python data_collector.py --output-dir my_sessions
-```
-
-### Veri Analizi
-
-```bash
-# Toplanan verileri analiz et
-python data_analysis.py sessions/2026-01-30/session_sample_mixed.json
+sudo apt-get install python3-xlib
 ```
 
 ---
 
-## Modüller
+## Quick Start
 
-### 1. `data_collector.py` — Veri Toplama Modülü
+### Collect Data
 
-Klavye ve fare olaylarını gerçek zamanlı toplar, JSON formatında kaydeder.
+```bash
+# Run until Ctrl+C
+python data_collector.py
 
-#### Özellikler
+# Run for specific duration (e.g., 60 seconds)
+python data_collector.py --duration 60
 
-- **Klavye olayları**: Tuş basma (key_press), tuş bırakma (key_release)
-- **Fare olayları**: Hareket (mouse_move), tıklama (mouse_click), kaydırma (mouse_scroll)
-- **Thread-safe yazım**: Queue + writer thread ile I/O blokajı önlenir
-- **Otomatik oturum yönetimi**: `sessions/YYYY-MM-DD/session_HHMMSS.json`
-
-#### Kullanım (Kod içinden)
-
-```python
-from data_collector import AdvancedDataCollector
-
-collector = AdvancedDataCollector()
-collector.start()
-
-# ... veri toplama devam eder ...
-
-collector.stop()
+# Custom output directory
+python data_collector.py --output-dir my_sessions
 ```
 
-#### Veri Formatı
+### Analyze Data
 
-Her olay JSON satırı olarak kaydedilir (newline-delimited JSON):
+```bash
+# Analyze a session file
+python data_analysis.py sessions/2026-01-30/session_143803.json
+```
+
+**Example output:**
+```
+=== FlowStateAI Log Analysis ===
+Total lines: 327
+Valid JSON: 327 | Invalid JSON: 0
+Event counts -> key_press: 3, key_release: 3, mouse_move: 271, mouse_click: 8, mouse_scroll: 42
+Anomalies:
+- Timestamp order violations: 0
+- Extreme velocity (> 50000 px/s): 15
+- Negative dwell/flight times: 0
+```
+
+---
+
+## Data Format
+
+Events are stored as newline-delimited JSON (NDJSON). Each line is a self-contained JSON object:
+
+### Keyboard Event
 
 ```json
 {
@@ -88,85 +125,165 @@ Her olay JSON satırı olarak kaydedilir (newline-delimited JSON):
 }
 ```
 
-#### Toplanan Metrikler
+### Mouse Event
 
-| Metrik | Açıklama | Bilişsel Yük İlişkisi |
-|--------|----------|----------------------|
-| **Dwell Time** | Tuşa basılı kalma süresi | Stres/yorgunlukta uzar |
-| **Flight Time** | Ardışık tuşlar arası süre | Bilişsel yükte artar |
-| **Velocity** | Fare hızı (px/s) | Yorgunlukta dalgalanır |
-| **Click Interval** | Tıklamalar arası süre | Dikkat dağınıklığında değişir |
+```json
+{
+  "timestamp": 1738234570.256,
+  "event_type": "mouse_move",
+  "data": {
+    "x": 150,
+    "y": 220,
+    "velocity": 391.5
+  }
+}
+```
+
+### Captured Metrics
+
+| Metric | Description | Cognitive Load Correlation |
+|--------|-------------|---------------------------|
+| **Dwell Time** | Key hold duration (press → release) | Increases with stress/fatigue |
+| **Flight Time** | Time between consecutive keystrokes | Increases with cognitive load |
+| **Velocity** | Mouse speed (px/s) | Fluctuates with fatigue |
+| **Click Interval** | Time between consecutive clicks | Varies with attention state |
 
 ---
 
-### 2. `data_analysis.py` — Veri Analiz Modülü
+## Modules
 
-Toplanan logların bütünlüğünü ve anomalilerini kontrol eder.
+### `data_collector.py` — Data Collection
 
-#### Kullanım
+Core module for real-time behavioral data capture.
+
+**Programmatic Usage:**
+
+```python
+from data_collector import AdvancedDataCollector
+
+collector = AdvancedDataCollector(base_dir="sessions")
+collector.start()
+
+# ... data collection in progress ...
+
+collector.stop()
+```
+
+**CLI Usage:**
 
 ```bash
-python data_analysis.py <log_dosyası>
+python data_collector.py [--duration SECONDS] [--output-dir PATH]
 ```
 
-#### Çıktı Örneği
+### `data_analysis.py` — Data Validation
 
-```
-=== FlowStateAI Log Analysis ===
-Total lines: 64
-Valid JSON: 64 | Invalid JSON: 0
-Event counts -> key_press: 22, key_release: 22, mouse_move: 12, mouse_click: 6, mouse_scroll: 2
-Anomalies:
-- Timestamp order violations: 0
-- Extreme velocity (> 50000 px/s): 0
-- Negative dwell/flight times: 0
+Validates JSON integrity and detects anomalies in collected data.
+
+```bash
+python data_analysis.py <log_file>
 ```
 
----
+**Checks performed:**
+- JSON parsing validity
+- Timestamp ordering
+- Extreme velocity detection (> 50,000 px/s)
+- Negative timing values
 
-### 3. `flow_logger.py` — Logging Modülü
+### `flow_logger.py` — Logging Utility
 
-Merkezi logging sistemi. Hem konsola hem dosyaya yazar.
+Centralized logging with console and file output.
 
 ```python
 from flow_logger import setup_logger
 
-logger = setup_logger()
-logger.info("FlowStateAI başlatıldı.")
+logger = setup_logger(name="flowstate", log_file="flowstate.log")
+logger.info("Application started")
 ```
 
 ---
 
-## Dosya Yapısı
+## Architecture
+
+### Data Pipeline
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        DATA COLLECTION                          │
+├─────────────────────────────────────────────────────────────────┤
+│  User Input (keyboard + mouse)                                  │
+│         ↓                                                       │
+│  pynput Listeners (event capture)                               │
+│         ↓                                                       │
+│  Thread-safe Queue (buffer)                                     │
+│         ↓                                                       │
+│  Writer Thread (JSON serialization)                             │
+│         ↓                                                       │
+│  Session File (NDJSON)                                          │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│                      FEATURE EXTRACTION                         │
+├─────────────────────────────────────────────────────────────────┤
+│  Dwell Time | Flight Time | Velocity | Click Intervals         │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│                       MODEL TRAINING                            │
+├─────────────────────────────────────────────────────────────────┤
+│  Random Forest | XGBoost | LSTM | Bi-LSTM | CNN-LSTM           │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│                         PREDICTION                              │
+├─────────────────────────────────────────────────────────────────┤
+│  Cognitive Load Classification: Low | Medium | High             │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Why Passive Sensing?
+
+| Approach | Pros | Cons |
+|----------|------|------|
+| **EEG** | High accuracy | Expensive, intrusive, requires setup |
+| **Eye Tracking** | Detailed attention data | Requires special hardware |
+| **Passive Sensing** | Non-intrusive, scalable, low cost | Indirect measurement |
+
+FlowStateAI uses passive sensing to enable **scalable, non-intrusive** cognitive load estimation that works on any standard computer.
+
+---
+
+## Project Structure
 
 ```
 FlowStateAI/
-├── data_collector.py      # Ana veri toplama modülü
-├── data_analysis.py       # Veri kalitesi analiz aracı
-├── flow_logger.py         # Logging konfigürasyonu
-├── calculator.py          # Yardımcı aritmetik fonksiyonlar
-├── user_reg.py            # Kullanıcı kayıt sistemi (in-memory)
-├── requirements.txt       # Python bağımlılıkları
-├── library_usage_guide.md # Kütüphane kullanım rehberi (TR)
-├── data_collector_report.md # Teknik rapor (TR)
-└── sessions/              # Toplanan veriler
+├── data_collector.py        # Main data collection module
+├── data_analysis.py         # Data validation and analysis
+├── flow_logger.py           # Logging configuration
+├── calculator.py            # Arithmetic helper functions
+├── user_reg.py              # User registration (in-memory)
+├── requirements.txt         # Python dependencies
+├── README.md                # Documentation (English)
+├── README_TR.md             # Documentation (Turkish)
+├── library_usage_guide.md   # Library usage guide
+├── data_collector_report.md # Technical report
+└── sessions/                # Collected data
     └── YYYY-MM-DD/
         └── session_HHMMSS.json
 ```
 
 ---
 
-## Örnek Veriler
+## Sample Data
 
-Proje içinde 3 adet örnek veri dosyası bulunmaktadır:
+Three sample data files are included for testing:
 
-| Dosya | İçerik | Event Sayısı |
-|-------|--------|--------------|
-| `session_sample_keyboard.json` | Sadece klavye olayları | 22 |
-| `session_sample_mouse.json` | Sadece fare olayları | 20 |
-| `session_sample_mixed.json` | Karışık (klavye + fare) | 23 |
+| File | Content | Events |
+|------|---------|--------|
+| `session_sample_keyboard.json` | Keyboard events only | 22 |
+| `session_sample_mouse.json` | Mouse events only | 20 |
+| `session_sample_mixed.json` | Mixed (keyboard + mouse) | 23 |
 
-Örnek analiz:
+**Test with sample data:**
 
 ```bash
 python data_analysis.py sessions/2026-01-30/session_sample_mixed.json
@@ -174,64 +291,51 @@ python data_analysis.py sessions/2026-01-30/session_sample_mixed.json
 
 ---
 
-## Teknik Mimari
+## Troubleshooting
 
-### Veri Pipeline'ı
+### "This process is not trusted" (macOS)
 
-```
-User Input (klavye + fare)
-    ↓
-pynput Listener'ları (event capture)
-    ↓
-Queue (thread-safe buffer)
-    ↓
-Writer Thread (JSON serialization)
-    ↓
-Session Dosyası (newline-delimited JSON)
-    ↓
-Feature Extraction (dwell, flight, velocity...)
-    ↓
-Model (RF, XGBoost, LSTM, Bi-LSTM, CNN-LSTM)
-    ↓
-Cognitive Load Prediction (Low/Medium/High)
-```
-
-### Neden Bu Yaklaşım?
-
-- **Pasif algılama**: EEG/eye-tracking gibi kurulumlar gerektirmez
-- **Non-blocking I/O**: Event listener'lar bloklanmaz
-- **Ölçeklenebilir**: Düşük maliyetli, her bilgisayarda çalışır
-- **Zaman serisi uyumlu**: ML modelleri için uygun format
-
----
-
-## Sorun Giderme
-
-### macOS Erişim İzni
-
-macOS'ta Accessibility izni gereklidir:
+Grant Accessibility permission:
 1. System Preferences → Security & Privacy → Privacy → Accessibility
-2. Terminal (veya IDE) uygulamasını listeye ekleyin
+2. Click the lock icon and enter your password
+3. Add and enable your terminal application
 
-### Linux Gereksinimi
+### No events captured
 
-```bash
-# X11 için gerekli olabilir
-sudo apt-get install python3-xlib
-```
+- Verify Accessibility permission is granted
+- Restart the terminal application after granting permission
+- Check if another application is capturing input events
 
----
+### High CPU usage
 
-## Gelecek Geliştirmeler
-
-- [ ] Gerçek zamanlı model entegrasyonu
-- [ ] NASA-TLX etiketleme arayüzü
-- [ ] Flutter frontend bağlantısı
-- [ ] REST API endpoint'leri
+- Mouse move events are throttled (0.1s / 5px threshold)
+- If still high, increase throttling in `_on_move()` method
 
 ---
 
-## Ekip
+## Roadmap
+
+- [ ] Real-time model integration
+- [ ] NASA-TLX labeling interface
+- [ ] Flutter frontend integration
+- [ ] REST API endpoints
+- [ ] Dashboard visualization
+
+---
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## Team
 
 **Backend (Python)**
 - Havin
@@ -243,6 +347,17 @@ sudo apt-get install python3-xlib
 
 ---
 
-## Lisans
+## License
 
-Bu proje eğitim amaçlıdır.
+This project is for educational purposes.
+
+---
+
+## Acknowledgments
+
+- [pynput](https://github.com/moses-palmer/pynput) — Input monitoring library
+- NASA-TLX — Task Load Index for ground truth labeling
+
+---
+
+**[Turkish Documentation (README_TR.md)](README_TR.md)**
