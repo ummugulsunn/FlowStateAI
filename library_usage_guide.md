@@ -37,3 +37,5 @@ Bu belge, FlowStateAI'nin "Bilişsel Yük (Cognitive Load) Tahmini" çalışmas�
 - Zaman senkronizasyonu önemlidir: Saat kayması veya farklı kaynaklar arası offset varsa normalize edin.
 
 
+
+

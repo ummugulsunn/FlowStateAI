@@ -1,0 +1,327 @@
+{"timestamp": 1769773083.6643572, "event_type": "mouse_move", "data": {"x": 183.8125, "y": 825.8359375, "velocity": null}}
+{"timestamp": 1769773083.6751769, "event_type": "mouse_move", "data": {"x": 183.8125, "y": 814.66015625, "velocity": 1032.9129812035874}}
+{"timestamp": 1769773083.679583, "event_type": "mouse_move", "data": {"x": 188.88671875, "y": 797.734375, "velocity": 4010.251315455042}}
+{"timestamp": 1769773083.6911519, "event_type": "mouse_move", "data": {"x": 196.84765625, "y": 773.84765625, "velocity": 2176.4084350853273}}
+{"timestamp": 1769773083.69602, "event_type": "mouse_move", "data": {"x": 205.40625, "y": 746.0234375, "velocity": 5979.988282797211}}
+{"timestamp": 1769773083.704063, "event_type": "mouse_move", "data": {"x": 220.96875, "y": 707.11328125, "velocity": 5210.328986097817}}
+{"timestamp": 1769773083.712065, "event_type": "mouse_move", "data": {"x": 233.17578125, "y": 670.48046875, "velocity": 4825.4103217217435}}
+{"timestamp": 1769773083.720364, "event_type": "mouse_move", "data": {"x": 249.65234375, "y": 626.5390625, "velocity": 5654.692492001725}}
+{"timestamp": 1769773083.72818, "event_type": "mouse_move", "data": {"x": 266.12890625, "y": 582.59765625, "velocity": 6004.337470382773}}
+{"timestamp": 1769773083.7362401, "event_type": "mouse_move", "data": {"x": 272.89453125, "y": 565.671875, "velocity": 2261.463202262724}}
+{"timestamp": 1769773083.744365, "event_type": "mouse_move", "data": {"x": 287.54296875, "y": 531.484375, "velocity": 4577.767248267367}}
+{"timestamp": 1769773083.7525089, "event_type": "mouse_move", "data": {"x": 298.99609375, "y": 499.41015625, "velocity": 4181.992815867207}}
+{"timestamp": 1769773083.7605371, "event_type": "mouse_move", "data": {"x": 309.6953125, "y": 473.7265625, "velocity": 3465.630953663158}}
+{"timestamp": 1769773083.7686799, "event_type": "mouse_move", "data": {"x": 320.39453125, "y": 448.04296875, "velocity": 3416.923582194815}}
+{"timestamp": 1769773083.776721, "event_type": "mouse_move", "data": {"x": 325.9140625, "y": 427.7890625, "velocity": 2610.6388165749822}}
+{"timestamp": 1769773083.7846882, "event_type": "mouse_move", "data": {"x": 328.12109375, "y": 421.1640625, "velocity": 876.4587334137262}}
+{"timestamp": 1769773083.792726, "event_type": "mouse_move", "data": {"x": 332.30859375, "y": 409.98828125, "velocity": 1484.800773326533}}
+{"timestamp": 1769773083.8008819, "event_type": "mouse_move", "data": {"x": 336.49609375, "y": 398.8125, "velocity": 1463.3152616685397}}
+{"timestamp": 1769773083.809023, "event_type": "mouse_move", "data": {"x": 338.703125, "y": 392.1875, "velocity": 857.7467783777453}}
+{"timestamp": 1769773083.8251789, "event_type": "mouse_move", "data": {"x": 341.28515625, "y": 384.140625, "velocity": 523.08758617396}}
+{"timestamp": 1769773083.94658, "event_type": "mouse_move", "data": {"x": 342.85546875, "y": 380.25, "velocity": 34.55961557687777}}
+{"timestamp": 1769773084.246241, "event_type": "mouse_move", "data": {"x": 342.0859375, "y": 381.015625, "velocity": 3.6225011959291686}}
+{"timestamp": 1769773084.253914, "event_type": "mouse_move", "data": {"x": 338.25, "y": 384.84765625, "velocity": 706.640902625986}}
+{"timestamp": 1769773084.269907, "event_type": "mouse_move", "data": {"x": 331.5390625, "y": 392.51171875, "velocity": 636.9696288776017}}
+{"timestamp": 1769773084.286135, "event_type": "mouse_move", "data": {"x": 326.22265625, "y": 398.78125, "velocity": 506.54363616586625}}
+{"timestamp": 1769773084.294257, "event_type": "mouse_move", "data": {"x": 322.38671875, "y": 402.61328125, "velocity": 667.5812883582489}}
+{"timestamp": 1769773084.3102279, "event_type": "mouse_move", "data": {"x": 318.60546875, "y": 407.0546875, "velocity": 365.22599820963205}}
+{"timestamp": 1769773084.334496, "event_type": "mouse_move", "data": {"x": 314.0546875, "y": 411.59375, "velocity": 264.8531268238672}}
+{"timestamp": 1769773084.366752, "event_type": "mouse_move", "data": {"x": 310.36328125, "y": 415.26953125, "velocity": 161.50229558932014}}
+{"timestamp": 1769773084.4262211, "event_type": "mouse_move", "data": {"x": 306.72265625, "y": 419.265625, "velocity": 90.90117727195934}}
+{"timestamp": 1769773084.5282822, "event_type": "mouse_move", "data": {"x": 310.640625, "y": 412.6796875, "velocity": 75.0847508173675}}
+{"timestamp": 1769773084.5364711, "event_type": "mouse_move", "data": {"x": 314.47265625, "y": 408.84375, "velocity": 662.1196660323203}}
+{"timestamp": 1769773084.5447612, "event_type": "mouse_move", "data": {"x": 318.88671875, "y": 403.32421875, "velocity": 852.5245115037044}}
+{"timestamp": 1769773084.552752, "event_type": "mouse_move", "data": {"x": 325.1328125, "y": 395.82421875, "velocity": 1221.4379691644385}}
+{"timestamp": 1769773084.5607822, "event_type": "mouse_move", "data": {"x": 333.51171875, "y": 387.44140625, "velocity": 1475.9732631201314}}
+{"timestamp": 1769773084.568531, "event_type": "mouse_move", "data": {"x": 344.3203125, "y": 378.17578125, "velocity": 1837.2402704907915}}
+{"timestamp": 1769773084.576617, "event_type": "mouse_move", "data": {"x": 355.12890625, "y": 368.91015625, "velocity": 1760.6411921339}}
+{"timestamp": 1769773084.584618, "event_type": "mouse_move", "data": {"x": 367.48046875, "y": 361.1875, "velocity": 1820.6401297704}}
+{"timestamp": 1769773084.592892, "event_type": "mouse_move", "data": {"x": 379.83203125, "y": 353.46484375, "velocity": 1760.621909199921}}
+{"timestamp": 1769773084.601014, "event_type": "mouse_move", "data": {"x": 391.00390625, "y": 347.875, "velocity": 1538.0858970766647}}
+{"timestamp": 1769773084.60885, "event_type": "mouse_move", "data": {"x": 404.8984375, "y": 341.6953125, "velocity": 1940.6063939578794}}
+{"timestamp": 1769773084.617035, "event_type": "mouse_move", "data": {"x": 416.0703125, "y": 337.50390625, "velocity": 1457.8356903116883}}
+{"timestamp": 1769773084.625292, "event_type": "mouse_move", "data": {"x": 427.2421875, "y": 334.70703125, "velocity": 1394.7490704373033}}
+{"timestamp": 1769773084.633198, "event_type": "mouse_move", "data": {"x": 441.13671875, "y": 333.16015625, "velocity": 1768.3333278315251}}
+{"timestamp": 1769773084.641477, "event_type": "mouse_move", "data": {"x": 455.03125, "y": 331.61328125, "velocity": 1688.6373837550288}}
+{"timestamp": 1769773084.649506, "event_type": "mouse_move", "data": {"x": 471.953125, "y": 331.61328125, "velocity": 2107.5985271409904}}
+{"timestamp": 1769773084.658339, "event_type": "mouse_move", "data": {"x": 488.875, "y": 331.61328125, "velocity": 1915.7711077521053}}
+{"timestamp": 1769773084.665691, "event_type": "mouse_move", "data": {"x": 505.796875, "y": 331.61328125, "velocity": 2301.7086522246723}}
+{"timestamp": 1769773084.675141, "event_type": "mouse_move", "data": {"x": 526.046875, "y": 331.61328125, "velocity": 2142.8124227363323}}
+{"timestamp": 1769773084.681578, "event_type": "mouse_move", "data": {"x": 546.296875, "y": 338.9765625, "velocity": 3347.483859077437}}
+{"timestamp": 1769773084.692118, "event_type": "mouse_move", "data": {"x": 568.1875, "y": 348.92578125, "velocity": 2281.3555700669094}}
+{"timestamp": 1769773084.6979141, "event_type": "mouse_move", "data": {"x": 612.125, "y": 370.89453125, "velocity": 8475.15071649201}}
+{"timestamp": 1769773084.708202, "event_type": "mouse_move", "data": {"x": 635.6640625, "y": 388.015625, "velocity": 2829.287159725324}}
+{"timestamp": 1769773084.7140028, "event_type": "mouse_move", "data": {"x": 646.47265625, "y": 397.27734375, "velocity": 2453.720932999138}}
+{"timestamp": 1769773084.725069, "event_type": "mouse_move", "data": {"x": 670.01171875, "y": 414.3984375, "velocity": 2630.2648053893727}}
+{"timestamp": 1769773084.730366, "event_type": "mouse_move", "data": {"x": 687.921875, "y": 430.3203125, "velocity": 4524.142335719239}}
+{"timestamp": 1769773084.741764, "event_type": "mouse_move", "data": {"x": 705.83203125, "y": 448.23046875, "velocity": 2222.198169769005}}
+{"timestamp": 1769773084.746413, "event_type": "mouse_move", "data": {"x": 720.55859375, "y": 462.95703125, "velocity": 4479.854903960273}}
+{"timestamp": 1769773084.758761, "event_type": "mouse_move", "data": {"x": 732.40234375, "y": 476.4921875, "velocity": 1456.5516203009668}}
+{"timestamp": 1769773084.7628028, "event_type": "mouse_move", "data": {"x": 735.2734375, "y": 481.28125, "velocity": 1381.4639334136596}}
+{"timestamp": 1769773084.770915, "event_type": "mouse_move", "data": {"x": 741.51953125, "y": 488.77734375, "velocity": 1202.795784156716}}
+{"timestamp": 1769773084.778694, "event_type": "mouse_move", "data": {"x": 747.765625, "y": 496.2734375, "velocity": 1254.3331153931485}}
+{"timestamp": 1769773084.7870002, "event_type": "mouse_move", "data": {"x": 750.63671875, "y": 501.0625, "velocity": 672.2339350487032}}
+{"timestamp": 1769773084.803225, "event_type": "mouse_move", "data": {"x": 755.1328125, "y": 508.14453125, "velocity": 517.026574555471}}
+{"timestamp": 1769773084.8436391, "event_type": "mouse_move", "data": {"x": 757.2265625, "y": 513.0078125, "velocity": 131.01460051192296}}
+{"timestamp": 1769773084.948587, "event_type": "mouse_move", "data": {"x": 754.640625, "y": 515.98046875, "velocity": 37.542662537964034}}
+{"timestamp": 1769773085.01328, "event_type": "mouse_move", "data": {"x": 748.890625, "y": 517.26171875, "velocity": 91.06118250207435}}
+{"timestamp": 1769773085.0702431, "event_type": "mouse_move", "data": {"x": 742.8515625, "y": 517.26171875, "velocity": 106.01690098400726}}
+{"timestamp": 1769773085.144105, "event_type": "mouse_click", "data": {"x": 739.59375, "y": 517.26171875, "button": "Button.left", "pressed": true, "click_interval": null}}
+{"timestamp": 1769773085.2926762, "event_type": "mouse_click", "data": {"x": 739.4296875, "y": 517.26171875, "button": "Button.left", "pressed": false, "click_interval": 0.14857125282287598}}
+{"timestamp": 1769773086.483893, "event_type": "mouse_move", "data": {"x": 739.4296875, "y": 517.01953125, "velocity": 2.426651114118586}}
+{"timestamp": 1769773086.509299, "event_type": "mouse_move", "data": {"x": 739.4296875, "y": 511.94921875, "velocity": 199.57049952609304}}
+{"timestamp": 1769773086.5258398, "event_type": "mouse_move", "data": {"x": 740.2421875, "y": 506.6875, "velocity": 321.8763423971305}}
+{"timestamp": 1769773086.54323, "event_type": "mouse_move", "data": {"x": 743.26171875, "y": 496.80859375, "velocity": 594.0150294495528}}
+{"timestamp": 1769773086.548536, "event_type": "mouse_move", "data": {"x": 745.46875, "y": 490.18359375, "velocity": 1316.046798224511}}
+{"timestamp": 1769773086.559177, "event_type": "mouse_move", "data": {"x": 748.26171875, "y": 479.0078125, "velocity": 1082.571827110391}}
+{"timestamp": 1769773086.5650182, "event_type": "mouse_move", "data": {"x": 755.625, "y": 458.75390625, "velocity": 3689.4190637935867}}
+{"timestamp": 1769773086.577131, "event_type": "mouse_move", "data": {"x": 764.828125, "y": 440.34375, "velocity": 1699.2117454855245}}
+{"timestamp": 1769773086.5812411, "event_type": "mouse_move", "data": {"x": 775.52734375, "y": 414.66015625, "velocity": 6769.429265195169}}
+{"timestamp": 1769773086.5938492, "event_type": "mouse_move", "data": {"x": 795.0625, "y": 382.9140625, "velocity": 2956.4560760794834}}
+{"timestamp": 1769773086.5969112, "event_type": "mouse_move", "data": {"x": 815.8125, "y": 346.59765625, "velocity": 13659.77128264992}}
+{"timestamp": 1769773086.609514, "event_type": "mouse_move", "data": {"x": 839.15625, "y": 310.28125, "velocity": 3425.5775262784337}}
+{"timestamp": 1769773086.613363, "event_type": "mouse_move", "data": {"x": 868.1484375, "y": 266.7890625, "velocity": 13579.958011218492}}
+{"timestamp": 1769773086.6231802, "event_type": "mouse_move", "data": {"x": 878.30078125, "y": 251.55859375, "velocity": 1864.4996439869328}}
+{"timestamp": 1769773086.629964, "event_type": "mouse_move", "data": {"x": 905.76171875, "y": 213.109375, "velocity": 6964.773721317452}}
+{"timestamp": 1769773086.637303, "event_type": "mouse_move", "data": {"x": 930.1796875, "y": 183.8046875, "velocity": 5197.504237499371}}
+{"timestamp": 1769773086.6454551, "event_type": "mouse_move", "data": {"x": 954.59765625, "y": 154.5, "velocity": 4679.152299915349}}
+{"timestamp": 1769773086.653545, "event_type": "mouse_move", "data": {"x": 977.50390625, "y": 131.58984375, "velocity": 4004.6933826322233}}
+{"timestamp": 1769773086.661607, "event_type": "mouse_move", "data": {"x": 998.90234375, "y": 112.328125, "velocity": 3571.1114142384845}}
+{"timestamp": 1769773086.6695418, "event_type": "mouse_move", "data": {"x": 1018.8046875, "y": 96.40234375, "velocity": 3212.4121942809065}}
+{"timestamp": 1769773086.677574, "event_type": "mouse_move", "data": {"x": 1035.37109375, "y": 83.515625, "velocity": 2613.0716317924052}}
+{"timestamp": 1769773086.685819, "event_type": "mouse_move", "data": {"x": 1050.59765625, "y": 73.359375, "velocity": 2219.8859306615236}}
+{"timestamp": 1769773086.693828, "event_type": "mouse_move", "data": {"x": 1055.38671875, "y": 70.484375, "velocity": 697.418709808438}}
+{"timestamp": 1769773086.70191, "event_type": "mouse_move", "data": {"x": 1066.55859375, "y": 64.89453125, "velocity": 1545.7087193879772}}
+{"timestamp": 1769773086.710352, "event_type": "mouse_move", "data": {"x": 1076.3359375, "y": 59.3046875, "velocity": 1334.1093409666764}}
+{"timestamp": 1769773086.718441, "event_type": "mouse_move", "data": {"x": 1082.95703125, "y": 57.09375, "velocity": 862.9528121486874}}
+{"timestamp": 1769773086.7261388, "event_type": "mouse_move", "data": {"x": 1089.578125, "y": 54.8828125, "velocity": 906.8127422981593}}
+{"timestamp": 1769773086.7423842, "event_type": "mouse_move", "data": {"x": 1096.078125, "y": 54.8828125, "velocity": 400.11412134198247}}
+{"timestamp": 1769773086.766689, "event_type": "mouse_move", "data": {"x": 1101.13671875, "y": 54.8828125, "velocity": 208.130897961586}}
+{"timestamp": 1769773086.799073, "event_type": "mouse_move", "data": {"x": 1105.625, "y": 58.4609375, "velocity": 177.24859503493389}}
+{"timestamp": 1769773086.815189, "event_type": "mouse_move", "data": {"x": 1113.2890625, "y": 64.203125, "velocity": 594.2306266994177}}
+{"timestamp": 1769773086.831444, "event_type": "mouse_move", "data": {"x": 1120.515625, "y": 69.51171875, "velocity": 551.631569826499}}
+{"timestamp": 1769773086.843162, "event_type": "mouse_move", "data": {"x": 1125.3046875, "y": 72.3828125, "velocity": 476.5093504071654}}
+{"timestamp": 1769773086.84774, "event_type": "mouse_move", "data": {"x": 1130.09375, "y": 75.25390625, "velocity": 1219.7259550628494}}
+{"timestamp": 1769773086.8598652, "event_type": "mouse_move", "data": {"x": 1134.8828125, "y": 77.16796875, "velocity": 425.3435194160835}}
+{"timestamp": 1769773086.8638148, "event_type": "mouse_move", "data": {"x": 1141.50390625, "y": 80.4765625, "velocity": 1874.0266225028697}}
+{"timestamp": 1769773086.8763788, "event_type": "mouse_move", "data": {"x": 1146.29296875, "y": 83.34765625, "velocity": 444.4267807116491}}
+{"timestamp": 1769773086.880028, "event_type": "mouse_move", "data": {"x": 1151.08203125, "y": 86.21875, "velocity": 1530.1161677225775}}
+{"timestamp": 1769773086.893433, "event_type": "mouse_move", "data": {"x": 1155.87109375, "y": 88.1328125, "velocity": 384.73446628623844}}
+{"timestamp": 1769773086.9044108, "event_type": "mouse_move", "data": {"x": 1162.953125, "y": 92.62890625, "velocity": 764.1536888986385}}
+{"timestamp": 1769773086.936633, "event_type": "mouse_move", "data": {"x": 1167.4375, "y": 95.25, "velocity": 161.19917985805034}}
+{"timestamp": 1769773087.110115, "event_type": "mouse_move", "data": {"x": 1168.32421875, "y": 96.0078125, "velocity": 6.723617029342497}}
+{"timestamp": 1769773087.159913, "event_type": "mouse_move", "data": {"x": 1162.26171875, "y": 93.15234375, "velocity": 134.56990879592738}}
+{"timestamp": 1769773087.1713011, "event_type": "mouse_move", "data": {"x": 1154.21484375, "y": 89.60546875, "velocity": 772.2024985378882}}
+{"timestamp": 1769773087.179083, "event_type": "mouse_move", "data": {"x": 1145.46484375, "y": 85.85546875, "velocity": 1223.302221239944}}
+{"timestamp": 1769773087.1869252, "event_type": "mouse_move", "data": {"x": 1134.2890625, "y": 81.6640625, "velocity": 1522.0369547178059}}
+{"timestamp": 1769773087.1953, "event_type": "mouse_move", "data": {"x": 1123.11328125, "y": 76.07421875, "velocity": 1492.0456323574151}}
+{"timestamp": 1769773087.202995, "event_type": "mouse_move", "data": {"x": 1109.21484375, "y": 71.44140625, "velocity": 1903.8747643829493}}
+{"timestamp": 1769773087.211562, "event_type": "mouse_move", "data": {"x": 1095.31640625, "y": 66.80859375, "velocity": 1710.1068134381524}}
+{"timestamp": 1769773087.219778, "event_type": "mouse_move", "data": {"x": 1084.140625, "y": 62.6171875, "velocity": 1452.739024247064}}
+{"timestamp": 1769773087.227114, "event_type": "mouse_move", "data": {"x": 1079.34765625, "y": 60.69921875, "velocity": 703.7275098903053}}
+{"timestamp": 1769773087.235986, "event_type": "mouse_move", "data": {"x": 1059.09375, "y": 55.17578125, "velocity": 2366.2615448084675}}
+{"timestamp": 1769773087.243098, "event_type": "mouse_move", "data": {"x": 1054.30078125, "y": 53.2578125, "velocity": 725.8797100843045}}
+{"timestamp": 1769773087.251669, "event_type": "mouse_move", "data": {"x": 1047.67578125, "y": 51.046875, "velocity": 814.8711770746755}}
+{"timestamp": 1769773087.259209, "event_type": "mouse_move", "data": {"x": 1041.05078125, "y": 48.8359375, "velocity": 926.2862907401585}}
+{"timestamp": 1769773087.2674198, "event_type": "mouse_move", "data": {"x": 1034.42578125, "y": 46.625, "velocity": 850.5997254466597}}
+{"timestamp": 1769773087.275251, "event_type": "mouse_move", "data": {"x": 1029.6328125, "y": 44.70703125, "velocity": 659.227660957645}}
+{"timestamp": 1769773087.283432, "event_type": "mouse_move", "data": {"x": 1024.83984375, "y": 42.7890625, "velocity": 631.0249971386257}}
+{"timestamp": 1769773087.291383, "event_type": "mouse_move", "data": {"x": 1018.21484375, "y": 41.68359375, "velocity": 844.7465610917287}}
+{"timestamp": 1769773087.307969, "event_type": "mouse_move", "data": {"x": 1010.16796875, "y": 39.90625, "velocity": 496.8521409653367}}
+{"timestamp": 1769773087.3239748, "event_type": "mouse_move", "data": {"x": 1003.66015625, "y": 38.27734375, "velocity": 419.13510322273385}}
+{"timestamp": 1769773087.3403342, "event_type": "mouse_move", "data": {"x": 998.3984375, "y": 36.7890625, "velocity": 334.2527070610059}}
+{"timestamp": 1769773087.486203, "event_type": "mouse_move", "data": {"x": 994.4375, "y": 35.83984375, "velocity": 27.92295644184229}}
+{"timestamp": 1769773087.547755, "event_type": "mouse_click", "data": {"x": 995.12890625, "y": 36.21875, "button": "Button.left", "pressed": true, "click_interval": 2.2550787925720215}}
+{"timestamp": 1769773087.658419, "event_type": "mouse_click", "data": {"x": 995.2890625, "y": 36.37890625, "button": "Button.left", "pressed": false, "click_interval": 0.11066389083862305}}
+{"timestamp": 1769773087.9030988, "event_type": "key_press", "data": {"key": "a", "press_time": 1769773087.9030988, "flight_time": null}}
+{"timestamp": 1769773088.088397, "event_type": "key_release", "data": {"key": "a", "press_time": 1769773087.9030988, "release_time": 1769773088.088397, "dwell_time": 0.18529820442199707}}
+{"timestamp": 1769773088.11686, "event_type": "mouse_move", "data": {"x": 995.2890625, "y": 36.6171875, "velocity": 1.8282611842147958}}
+{"timestamp": 1769773088.132591, "event_type": "mouse_move", "data": {"x": 996.390625, "y": 46.48828125, "velocity": 631.3843430839383}}
+{"timestamp": 1769773088.1421802, "event_type": "mouse_move", "data": {"x": 998.59765625, "y": 53.109375, "velocity": 727.8239137014491}}
+{"timestamp": 1769773088.148375, "event_type": "mouse_move", "data": {"x": 1001.390625, "y": 64.28125, "velocity": 1858.9219196257407}}
+{"timestamp": 1769773088.1563442, "event_type": "mouse_move", "data": {"x": 1005.578125, "y": 75.453125, "velocity": 1497.1352712640492}}
+{"timestamp": 1769773088.1645381, "event_type": "mouse_move", "data": {"x": 1011.09765625, "y": 95.703125, "velocity": 2561.487661127304}}
+{"timestamp": 1769773088.179507, "event_type": "mouse_move", "data": {"x": 1018.4609375, "y": 115.953125, "velocity": 1439.4649787744115}}
+{"timestamp": 1769773088.181161, "event_type": "mouse_move", "data": {"x": 1023.98046875, "y": 136.203125, "velocity": 12690.386036849239}}
+{"timestamp": 1769773088.189031, "event_type": "mouse_move", "data": {"x": 1031.34375, "y": 156.453125, "velocity": 2737.9008521122314}}
+{"timestamp": 1769773088.1972811, "event_type": "mouse_move", "data": {"x": 1038.109375, "y": 173.375, "velocity": 2208.9374958461335}}
+{"timestamp": 1769773088.2130518, "event_type": "mouse_move", "data": {"x": 1043.62890625, "y": 193.625, "velocity": 1330.8722683964984}}
+{"timestamp": 1769773088.213301, "event_type": "mouse_move", "data": {"x": 1050.9921875, "y": 213.875, "velocity": 86483.60691614608}}
+{"timestamp": 1769773088.224252, "event_type": "mouse_move", "data": {"x": 1058.35546875, "y": 234.125, "velocity": 1967.5905518456118}}
+{"timestamp": 1769773088.229213, "event_type": "mouse_move", "data": {"x": 1063.4296875, "y": 251.046875, "velocity": 3561.0227214313422}}
+{"timestamp": 1769773088.237155, "event_type": "mouse_move", "data": {"x": 1070.1953125, "y": 267.96875, "velocity": 2294.679628538909}}
+{"timestamp": 1769773088.245717, "event_type": "mouse_move", "data": {"x": 1074.82421875, "y": 281.86328125, "velocity": 1710.4821394404833}}
+{"timestamp": 1769773088.2533162, "event_type": "mouse_move", "data": {"x": 1079.453125, "y": 295.7578125, "velocity": 1927.2373040374812}}
+{"timestamp": 1769773088.261727, "event_type": "mouse_move", "data": {"x": 1082.24609375, "y": 306.9296875, "velocity": 1369.1356720232332}}
+{"timestamp": 1769773088.270001, "event_type": "mouse_move", "data": {"x": 1084.16015625, "y": 311.71875, "velocity": 623.3379064329815}}
+{"timestamp": 1769773088.2781508, "event_type": "mouse_move", "data": {"x": 1086.3671875, "y": 318.33984375, "velocity": 856.3636254592132}}
+{"timestamp": 1769773088.285722, "event_type": "mouse_move", "data": {"x": 1088.57421875, "y": 324.9609375, "velocity": 921.8125018601928}}
+{"timestamp": 1769773088.2938392, "event_type": "key_press", "data": {"key": "a", "press_time": 1769773088.2938392, "flight_time": 0.20544219017028809}}
+{"timestamp": 1769773088.302054, "event_type": "mouse_move", "data": {"x": 1091.01171875, "y": 331.390625, "velocity": 421.02921586191997}}
+{"timestamp": 1769773088.431556, "event_type": "key_release", "data": {"key": "a", "press_time": 1769773088.2938392, "release_time": 1769773088.431556, "dwell_time": 0.13771677017211914}}
+{"timestamp": 1769773088.6998348, "event_type": "key_press", "data": {"key": "a", "press_time": 1769773088.6998348, "flight_time": 0.2682788372039795}}
+{"timestamp": 1769773088.700247, "event_type": "mouse_move", "data": {"x": 1090.62890625, "y": 335.5703125, "velocity": 10.540567715430424}}
+{"timestamp": 1769773088.709771, "event_type": "mouse_move", "data": {"x": 1090.62890625, "y": 342.19140625, "velocity": 695.2105342211986}}
+{"timestamp": 1769773088.715206, "event_type": "mouse_move", "data": {"x": 1090.62890625, "y": 348.8125, "velocity": 1218.2347780312336}}
+{"timestamp": 1769773088.726914, "event_type": "mouse_move", "data": {"x": 1094.375, "y": 357.55859375, "velocity": 812.6554703628199}}
+{"timestamp": 1769773088.7307289, "event_type": "mouse_move", "data": {"x": 1098.5625, "y": 368.73046875, "velocity": 3127.4136892694733}}
+{"timestamp": 1769773088.742358, "event_type": "mouse_move", "data": {"x": 1105.328125, "y": 385.65234375, "velocity": 1567.1246741483435}}
+{"timestamp": 1769773088.747496, "event_type": "mouse_move", "data": {"x": 1112.09375, "y": 402.57421875, "velocity": 3547.0103529586822}}
+{"timestamp": 1769773088.7601779, "event_type": "mouse_move", "data": {"x": 1122.04296875, "y": 424.46484375, "velocity": 1896.0401383952085}}
+{"timestamp": 1769773088.763159, "event_type": "mouse_move", "data": {"x": 1133.984375, "y": 446.35546875, "velocity": 8364.406429685187}}
+{"timestamp": 1769773088.7711868, "event_type": "mouse_move", "data": {"x": 1144.68359375, "y": 472.03515625, "velocity": 3465.387636368048}}
+{"timestamp": 1769773088.779552, "event_type": "mouse_move", "data": {"x": 1166.65234375, "y": 515.97265625, "velocity": 5872.410336562653}}
+{"timestamp": 1769773088.7878778, "event_type": "mouse_move", "data": {"x": 1172.828125, "y": 529.8671875, "velocity": 1826.2722725545411}}
+{"timestamp": 1769773088.7951202, "event_type": "mouse_move", "data": {"x": 1185.66796875, "y": 555.546875, "velocity": 3964.238402818349}}
+{"timestamp": 1769773088.802994, "event_type": "mouse_move", "data": {"x": 1197.609375, "y": 577.4375, "velocity": 3166.9504313939005}}
+{"timestamp": 1769773088.811316, "event_type": "mouse_move", "data": {"x": 1207.55859375, "y": 599.328125, "velocity": 2889.3902604646305}}
+{"timestamp": 1769773088.8196359, "event_type": "mouse_move", "data": {"x": 1216.76171875, "y": 617.734375, "velocity": 2473.458222241748}}
+{"timestamp": 1769773088.825065, "event_type": "key_release", "data": {"key": "a", "press_time": 1769773088.6998348, "release_time": 1769773088.825065, "dwell_time": 0.125230073928833}}
+{"timestamp": 1769773088.8273861, "event_type": "mouse_move", "data": {"x": 1224.125, "y": 637.984375, "velocity": 2780.1817832273864}}
+{"timestamp": 1769773088.835784, "event_type": "mouse_move", "data": {"x": 1230.30078125, "y": 651.87890625, "velocity": 1810.6139178910694}}
+{"timestamp": 1769773088.843552, "event_type": "mouse_move", "data": {"x": 1235.375, "y": 668.80078125, "velocity": 2274.193136932766}}
+{"timestamp": 1769773088.8517609, "event_type": "mouse_move", "data": {"x": 1240.00390625, "y": 682.6953125, "velocity": 1784.1078882249967}}
+{"timestamp": 1769773088.8598049, "event_type": "mouse_move", "data": {"x": 1242.796875, "y": 693.8671875, "velocity": 1431.5886137003356}}
+{"timestamp": 1769773088.8677819, "event_type": "mouse_move", "data": {"x": 1246.984375, "y": 705.0390625, "velocity": 1495.6586299838855}}
+{"timestamp": 1769773088.875983, "event_type": "mouse_move", "data": {"x": 1248.37890625, "y": 716.2109375, "velocity": 1372.8090491030307}}
+{"timestamp": 1769773088.883979, "event_type": "mouse_move", "data": {"x": 1251.171875, "y": 727.3828125, "velocity": 1440.1684130728015}}
+{"timestamp": 1769773088.892268, "event_type": "mouse_move", "data": {"x": 1252.41796875, "y": 736.12890625, "velocity": 1065.8179323894283}}
+{"timestamp": 1769773088.900636, "event_type": "mouse_move", "data": {"x": 1253.8125, "y": 747.30078125, "velocity": 1345.4295307722962}}
+{"timestamp": 1769773088.935474, "event_type": "mouse_move", "data": {"x": 1255.20703125, "y": 758.47265625, "velocity": 323.1697406330784}}
+{"timestamp": 1769773088.93606, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 769.64453125, "velocity": 19211.50759603175}}
+{"timestamp": 1769773088.936162, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 780.81640625, "velocity": 109481.8691588785}}
+{"timestamp": 1769773088.936245, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 791.98828125, "velocity": 134650.11494252874}}
+{"timestamp": 1769773088.941844, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 805.8828125, "velocity": 2481.599727474025}}
+{"timestamp": 1769773088.948734, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 819.77734375, "velocity": 2016.6056956988132}}
+{"timestamp": 1769773088.956573, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 833.671875, "velocity": 1772.4957571702303}}
+{"timestamp": 1769773088.964886, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 847.56640625, "velocity": 1671.4339633464308}}
+{"timestamp": 1769773088.9752908, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 861.4609375, "velocity": 1335.3930478220022}}
+{"timestamp": 1769773088.9811141, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 875.35546875, "velocity": 2385.993367451382}}
+{"timestamp": 1769773088.999564, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 889.25, "velocity": 753.0999689858369}}
+{"timestamp": 1769773089.009587, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 902.78515625, "velocity": 1350.3939105613701}}
+{"timestamp": 1769773089.0133162, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 913.95703125, "velocity": 2995.8595997698358}}
+{"timestamp": 1769773089.021439, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 922.703125, "velocity": 1076.71781626064}}
+{"timestamp": 1769773089.0293188, "event_type": "mouse_move", "data": {"x": 1256.6015625, "y": 929.32421875, "velocity": 840.2686838124055}}
+{"timestamp": 1769773089.038432, "event_type": "mouse_move", "data": {"x": 1255.49609375, "y": 935.9453125, "velocity": 736.6060390940477}}
+{"timestamp": 1769773089.053916, "event_type": "mouse_move", "data": {"x": 1254.6796875, "y": 942.4453125, "velocity": 423.0838314242909}}
+{"timestamp": 1769773089.1018949, "event_type": "mouse_move", "data": {"x": 1254.15234375, "y": 947.6875, "velocity": 109.81176133675514}}
+{"timestamp": 1769773089.2092228, "event_type": "mouse_move", "data": {"x": 1254.91015625, "y": 949.3046875, "velocity": 16.64001205519985}}
+{"timestamp": 1769773089.309428, "event_type": "mouse_click", "data": {"x": 1255.98046875, "y": 950.6875, "button": "Button.left", "pressed": true, "click_interval": 1.6510090827941895}}
+{"timestamp": 1769773089.329368, "event_type": "mouse_move", "data": {"x": 1255.98046875, "y": 950.82421875, "velocity": 15.469935637933288}}
+{"timestamp": 1769773089.425248, "event_type": "mouse_click", "data": {"x": 1255.98046875, "y": 950.82421875, "button": "Button.left", "pressed": false, "click_interval": 0.11581993103027344}}
+{"timestamp": 1769773089.792504, "event_type": "mouse_move", "data": {"x": 1255.98046875, "y": 950.578125, "velocity": 0.5313639459406867}}
+{"timestamp": 1769773089.814036, "event_type": "mouse_move", "data": {"x": 1249.60546875, "y": 945.59375, "velocity": 375.8278040570524}}
+{"timestamp": 1769773089.8216681, "event_type": "mouse_move", "data": {"x": 1244.8125, "y": 943.67578125, "velocity": 676.4023413662003}}
+{"timestamp": 1769773089.831954, "event_type": "mouse_move", "data": {"x": 1237.3125, "y": 938.67578125, "velocity": 876.3373358260924}}
+{"timestamp": 1769773089.837559, "event_type": "mouse_move", "data": {"x": 1230.6875, "y": 935.36328125, "velocity": 1321.4983881222663}}
+{"timestamp": 1769773089.850951, "event_type": "mouse_move", "data": {"x": 1220.90625, "y": 929.7734375, "velocity": 841.2385221912082}}
+{"timestamp": 1769773089.8559659, "event_type": "mouse_move", "data": {"x": 1211.125, "y": 924.18359375, "velocity": 2246.4756010021947}}
+{"timestamp": 1769773089.861933, "event_type": "mouse_move", "data": {"x": 1201.34375, "y": 917.19921875, "velocity": 2014.1836396389597}}
+{"timestamp": 1769773089.8704379, "event_type": "mouse_move", "data": {"x": 1191.5625, "y": 911.609375, "velocity": 1324.6346656055214}}
+{"timestamp": 1769773089.878664, "event_type": "mouse_move", "data": {"x": 1184.0625, "y": 905.359375, "velocity": 1186.801200499014}}
+{"timestamp": 1769773089.886131, "event_type": "mouse_move", "data": {"x": 1171.70703125, "y": 897.63671875, "velocity": 1951.2996856633135}}
+{"timestamp": 1769773089.894046, "event_type": "mouse_move", "data": {"x": 1159.3515625, "y": 889.9140625, "velocity": 1840.8565231426387}}
+{"timestamp": 1769773089.902498, "event_type": "mouse_move", "data": {"x": 1145.8125, "y": 879.7578125, "velocity": 2002.4991679128655}}
+{"timestamp": 1769773089.9110248, "event_type": "mouse_move", "data": {"x": 1127.40234375, "y": 870.55078125, "velocity": 2414.0414907984105}}
+{"timestamp": 1769773089.9195662, "event_type": "mouse_move", "data": {"x": 1093.21484375, "y": 853.45703125, "velocity": 4475.031077876574}}
+{"timestamp": 1769773089.9262102, "event_type": "mouse_move", "data": {"x": 1067.53125, "y": 840.61328125, "velocity": 4322.088909029721}}
+{"timestamp": 1769773089.9630852, "event_type": "mouse_move", "data": {"x": 1037.75, "y": 826.8671875, "velocity": 889.5069814497476}}
+{"timestamp": 1769773089.988729, "event_type": "mouse_move", "data": {"x": 1003.5625, "y": 809.7734375, "velocity": 1490.5259335886524}}
+{"timestamp": 1769773090.035823, "event_type": "mouse_move", "data": {"x": 964.65234375, "y": 794.20703125, "velocity": 889.8861084433906}}
+{"timestamp": 1769773090.035917, "event_type": "mouse_move", "data": {"x": 925.7421875, "y": 776.046875, "velocity": 457108.80940329796}}
+{"timestamp": 1769773090.035959, "event_type": "mouse_move", "data": {"x": 881.80078125, "y": 759.56640625, "velocity": 1118408.7722159196}}
+{"timestamp": 1769773090.035997, "event_type": "mouse_move", "data": {"x": 864.875, "y": 752.796875, "velocity": 480876.5360060545}}
+{"timestamp": 1769773090.036034, "event_type": "mouse_move", "data": {"x": 830.6875, "y": 735.703125, "velocity": 1027679.4125956941}}
+{"timestamp": 1769773090.036148, "event_type": "mouse_move", "data": {"x": 796.5, "y": 721.05078125, "velocity": 326375.7442281541}}
+{"timestamp": 1769773090.036187, "event_type": "mouse_move", "data": {"x": 766.71875, "y": 707.3046875, "velocity": 844022.069238805}}
+{"timestamp": 1769773090.0362759, "event_type": "mouse_move", "data": {"x": 736.9375, "y": 693.55859375, "velocity": 368835.38146360643}}
+{"timestamp": 1769773090.036313, "event_type": "mouse_move", "data": {"x": 709.11328125, "y": 682.85546875, "velocity": 801537.1488474839}}
+{"timestamp": 1769773090.03635, "event_type": "mouse_move", "data": {"x": 683.4296875, "y": 670.01171875, "velocity": 777055.816954395}}
+{"timestamp": 1769773090.036386, "event_type": "mouse_move", "data": {"x": 661.53515625, "y": 660.05859375, "velocity": 668052.0677702414}}
+{"timestamp": 1769773090.043133, "event_type": "mouse_move", "data": {"x": 639.640625, "y": 650.10546875, "velocity": 3564.6440592708736}}
+{"timestamp": 1769773090.063988, "event_type": "mouse_move", "data": {"x": 617.74609375, "y": 640.15234375, "velocity": 1153.236032482468}}
+{"timestamp": 1769773090.064286, "event_type": "mouse_move", "data": {"x": 595.8515625, "y": 630.19921875, "velocity": 80700.68978664516}}
+{"timestamp": 1769773090.064422, "event_type": "mouse_move", "data": {"x": 577.44140625, "y": 620.9921875, "velocity": 151466.28048581464}}
+{"timestamp": 1769773090.0748842, "event_type": "mouse_move", "data": {"x": 559.03125, "y": 611.78515625, "velocity": 1967.4531670597137}}
+{"timestamp": 1769773090.083293, "event_type": "mouse_move", "data": {"x": 554.23828125, "y": 609.8671875, "velocity": 613.938352428898}}
+{"timestamp": 1769773090.087594, "event_type": "mouse_move", "data": {"x": 543.0625, "y": 604.27734375, "velocity": 2905.270894003266}}
+{"timestamp": 1769773090.109612, "event_type": "mouse_move", "data": {"x": 534.3125, "y": 600.52734375, "velocity": 432.3614997430619}}
+{"timestamp": 1769773090.118685, "event_type": "mouse_move", "data": {"x": 527.6875, "y": 597.21484375, "velocity": 816.3738170113352}}
+{"timestamp": 1769773090.121708, "event_type": "mouse_move", "data": {"x": 522.89453125, "y": 595.296875, "velocity": 1707.7838750544054}}
+{"timestamp": 1769773090.4116979, "event_type": "mouse_move", "data": {"x": 518.62890625, "y": 592.90234375, "velocity": 16.86872989858716}}
+{"timestamp": 1769773090.424837, "event_type": "mouse_move", "data": {"x": 513.109375, "y": 588.484375, "velocity": 538.0759452908786}}
+{"timestamp": 1769773090.431537, "event_type": "mouse_move", "data": {"x": 505.609375, "y": 583.484375, "velocity": 1345.3950159143546}}
+{"timestamp": 1769773090.435596, "event_type": "mouse_move", "data": {"x": 494.796875, "y": 574.21875, "velocity": 3508.0520416232057}}
+{"timestamp": 1769773090.443638, "event_type": "mouse_move", "data": {"x": 482.44140625, "y": 566.49609375, "velocity": 1811.7682504310374}}
+{"timestamp": 1769773090.4516869, "event_type": "mouse_move", "data": {"x": 467.2109375, "y": 556.33984375, "velocity": 2274.407593595765}}
+{"timestamp": 1769773090.4593868, "event_type": "mouse_move", "data": {"x": 450.640625, "y": 543.453125, "velocity": 2726.1798014637025}}
+{"timestamp": 1769773090.467445, "event_type": "mouse_move", "data": {"x": 432.23046875, "y": 532.40625, "velocity": 2664.4278377170826}}
+{"timestamp": 1769773090.475803, "event_type": "mouse_move", "data": {"x": 413.8203125, "y": 521.359375, "velocity": 2568.8136712449214}}
+{"timestamp": 1769773090.4836988, "event_type": "mouse_move", "data": {"x": 398.58984375, "y": 511.203125, "velocity": 2318.428828800031}}
+{"timestamp": 1769773090.491682, "event_type": "mouse_move", "data": {"x": 380.1796875, "y": 500.15625, "velocity": 2689.413811347568}}
+{"timestamp": 1769773090.4997811, "event_type": "mouse_move", "data": {"x": 366.640625, "y": 490.0, "velocity": 2089.743759273214}}
+{"timestamp": 1769773090.5085921, "event_type": "mouse_move", "data": {"x": 351.41015625, "y": 479.84375, "velocity": 2077.652504388988}}
+{"timestamp": 1769773090.516245, "event_type": "mouse_move", "data": {"x": 340.59765625, "y": 470.578125, "velocity": 1860.6949345328392}}
+{"timestamp": 1769773090.5244641, "event_type": "mouse_move", "data": {"x": 330.81640625, "y": 463.59375, "velocity": 1462.2900775333262}}
+{"timestamp": 1769773090.542167, "event_type": "mouse_move", "data": {"x": 319.48046875, "y": 454.46875, "velocity": 822.0323276061733}}
+{"timestamp": 1769773090.550821, "event_type": "mouse_move", "data": {"x": 311.98046875, "y": 449.46875, "velocity": 1041.5710326246426}}
+{"timestamp": 1769773090.589488, "event_type": "mouse_move", "data": {"x": 304.48046875, "y": 444.46875, "velocity": 233.1157493307433}}
+{"timestamp": 1769773090.589644, "event_type": "mouse_move", "data": {"x": 299.6875, "y": 441.59375, "velocity": 35844.70241147084}}
+{"timestamp": 1769773090.591037, "event_type": "mouse_move", "data": {"x": 295.8515625, "y": 437.7578125, "velocity": 3894.1308327595784}}
+{"timestamp": 1769773090.5940638, "event_type": "mouse_move", "data": {"x": 290.58984375, "y": 434.7890625, "velocity": 1996.0372359723085}}
+{"timestamp": 1769773090.613258, "event_type": "mouse_move", "data": {"x": 285.51953125, "y": 431.58203125, "velocity": 312.565753505398}}
+{"timestamp": 1769773090.645833, "event_type": "mouse_move", "data": {"x": 281.01953125, "y": 428.9453125, "velocity": 160.10929145498358}}
+{"timestamp": 1769773090.758585, "event_type": "mouse_click", "data": {"x": 279.10546875, "y": 427.796875, "button": "Button.left", "pressed": true, "click_interval": 1.3333370685577393}}
+{"timestamp": 1769773090.877098, "event_type": "mouse_click", "data": {"x": 279.10546875, "y": 427.796875, "button": "Button.left", "pressed": false, "click_interval": 0.11851310729980469}}
+{"timestamp": 1769773091.397318, "event_type": "mouse_move", "data": {"x": 279.10546875, "y": 428.03515625, "velocity": 2.8203342544474492}}
+{"timestamp": 1769773091.469414, "event_type": "mouse_move", "data": {"x": 279.10546875, "y": 434.4765625, "velocity": 89.34471366731373}}
+{"timestamp": 1769773091.485408, "event_type": "mouse_move", "data": {"x": 279.10546875, "y": 440.9765625, "velocity": 406.40057241667165}}
+{"timestamp": 1769773091.5016232, "event_type": "mouse_move", "data": {"x": 277.765625, "y": 447.76953125, "velocity": 427.0000962872264}}
+{"timestamp": 1769773091.517783, "event_type": "mouse_move", "data": {"x": 276.1328125, "y": 454.26953125, "velocity": 414.7301938948839}}
+{"timestamp": 1769773091.534143, "event_type": "mouse_move", "data": {"x": 275.4609375, "y": 459.5234375, "velocity": 323.75780384315624}}
+{"timestamp": 1769773091.550307, "event_type": "mouse_move", "data": {"x": 274.64453125, "y": 464.77734375, "velocity": 328.936991820945}}
+{"timestamp": 1769773091.5744839, "event_type": "mouse_move", "data": {"x": 273.30078125, "y": 470.7890625, "velocity": 254.79211065337893}}
+{"timestamp": 1769773091.607219, "event_type": "mouse_move", "data": {"x": 272.1015625, "y": 475.9453125, "velocity": 161.7183577071158}}
+{"timestamp": 1769773091.6738439, "event_type": "mouse_move", "data": {"x": 270.6640625, "y": 480.9921875, "velocity": 78.76343736856998}}
+{"timestamp": 1769773091.993251, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.092582, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.10941, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.1250749, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.142572, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.161706, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": -1, "dy": 0}}
+{"timestamp": 1769773092.175209, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.1924238, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.208641, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.225346, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.241865, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.258244, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.275022, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": -1, "dy": 0}}
+{"timestamp": 1769773092.291874, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.308207, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.39193, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.675953, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.7417321, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.759616, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.775022, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.791521, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.808185, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.8249412, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.8415208, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.8582091, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.874937, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 1}}
+{"timestamp": 1769773092.8915598, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.9084, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.941567, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.9583218, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.974983, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773092.9915671, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773093.008277, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773093.024971, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773093.041719, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773093.058166, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773093.074877, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773093.091755, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773093.108223, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773093.124934, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773093.1415832, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}
+{"timestamp": 1769773093.208161, "event_type": "mouse_scroll", "data": {"x": 269.75390625, "y": 483.55859375, "dx": 0, "dy": 0}}

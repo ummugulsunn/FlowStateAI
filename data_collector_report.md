@@ -25,3 +25,5 @@
 - Temel metrikler (velocity, flight time, dwell time, click interval) üretilmekte ve oturum bazlı dosyalarda saklanmaktadır.
 - Mimari, I/O blokajına karşı dayanıklı olup ileride eklenecek filtreleme, örnekleme ve model entegrasyonlarına hazır durumdadır.
 
+
+
